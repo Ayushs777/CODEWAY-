@@ -1,0 +1,112 @@
+/* Global styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* Sans-serif fallback */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Adjust text color based on your palette */
+  
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff; /* Adjust link color based on your palette */
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff; /* Light background */
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    font-family: inherit; /* Use main serif font */
+    background-color: beige;
+  }
+  
+  p {
+    font-size: 1.1em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* Sans-serif fallback */
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+    max-width: 1200px; /* Set a maximum width for responsiveness */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* About section styles */
+  #about {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center;
+  }
+  
+  #about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* Skills section styles */
+  #skills {
+    display: flex;
+    flex-wrap: wrap; /* Allow skills to wrap onto multiple lines on smaller screens */
+    justify-content: space-between; /* Distribute skills evenly horizontally */
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* Sans-serif fallback */
+  }
+  
+  /* Projects section styles */
+  .project {
+    display: flex;
+    flex-direction: row; /* Arrange project details and image side-by-side */
+    flex-wrap: wrap; /* Allow projects to wrap onto multiple lines on smaller screens */
+    justify-content: space-between; /* Distribute projects evenly horizontally */
+    margin-bottom: 40px;
+  }
+  
+  .project img {
+    width: 30%;
+    max-width: 200px; /* Ensure image doesn't overflow container on smaller screens */
+    margin-right: 20px; /* Add spacing between image and details */
+  }
+  
+  .project h3 {
+    font-size: 1.3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif /* Use main serif font */
+  }
+  
+  .project p {
+    font-size: 1em;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    display: flex;
+    flex-direction: column; /* Stack contact information vertically on smaller screens */
+    align-items: center;
+  }
+  
+  #contact p {
+    margin-bottom: 
+  }
